@@ -1,0 +1,4 @@
+1. 头文件: <iterator>
+2. 创建: 
+	1. 定义: reverse_iterator<iterator_Type> name
+	2. 初始化: (基础迭代器)

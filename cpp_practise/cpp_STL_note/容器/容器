@@ -1,0 +1,5 @@
+1. 容器: 封装数据结构的泛型类
+2. 种类:
+	1. 序列容器: 元素在容器中位置与元素值无关(vector,list,deque)
+	2. 排序容器: 元素由大到小排序(set,multiset,map,multimap)
+	3. 哈希容器: 元素位置由哈希函数确定(unordered_set,unordered_map)

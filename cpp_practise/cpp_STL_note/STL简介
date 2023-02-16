@@ -1,0 +1,13 @@
+1. STL: 泛型编程的类和方法库
+2. 组成:
+	1. 容器: 封装数据结构的模板类
+	2. 算法: 数据结构算法的模板函数
+	3. 迭代器: 对容器中数据读写
+	4. 函数对象: 仿函数
+	5. 适配器: 接口适配
+	6. 内存分配器: 自定义内存申请和释放
+3. 头文件:
+	<iterator>  <functional>  <vector>  <deque>
+	<list>      <queue>       <stack>   <set>
+	<map>       <algorithm>   <numeric> <memory>
+	<utility>

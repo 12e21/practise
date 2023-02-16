@@ -1,0 +1,7 @@
+1. 头文件: "unordered_map"
+2. 创建: unordered_map<Type,Type> map_name
+3. 初始化:
+	1. 内容: {{,}{,}{,}}
+	2. 同种容器: (map)
+	3. 迭代器: (begin(),end())
+	4. 函数: (ret_umap())

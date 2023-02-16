@@ -1,0 +1,6 @@
+1. 头文件: <iterator>
+2. 创建:
+	1. front_insert_iterator<Container_Type> name(container);
+	2. auto name = front_inserter(container);
+3. 使用:
+	front_insert_iter = val;

@@ -1,0 +1,12 @@
+1. 作用:tmux用于将会话(session)与窗口分离
+2. 指令:
+	1. 进入: tmux   退出: exit  /   Ctrl+d
+	2. 新建会话: tmux new -s 会话名
+	3. 分离会话: Ctrl+b d  /  tmux detach
+	4. 查看当前所有会话: tmux ls
+	5. 接入会话: tmux attach -t 会话名
+	6. 重命名会话: tmux rename-session -t 旧名 新名
+	7. 杀死某个会话: tmux kill-session -t 会话名
+	
+	其他指令可看http://www.ruanyifeng.com/blog/2019/10/tmux.html
+	

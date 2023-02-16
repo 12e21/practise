@@ -1,0 +1,6 @@
+1. 头文件: <iterator>
+2. 创建: 
+	1. insert_iterator<Container_Type> name(container,iter)
+	2. auto insert_iter = inserter(container,iter)
+3. 使用:
+	insert_iter = val

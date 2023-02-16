@@ -1,0 +1,3 @@
+常用函数:
+	1. count(key)  :查找以 key 键的键值对的个数
+	2. equal_range(key) :返回key范围的迭代器

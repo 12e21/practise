@@ -1,0 +1,12 @@
+1. 创建环境: conda create -n 环境名 python=版本
+2. 激活/切换环境: conda activate 环境名
+3. 退出环境: conda deactivate
+4. 查看版本: conda --version
+5. 查看已安装环境: conda info -e
+6. 查看conda帮助信息: conda -h
+7. 复制一个环境:$ conda create --name 新环境名 --clone 原环境名
+8. 删除环境: $ conda remove --name 环境名 --all
+9. 查找包有哪些版本可以安装: conda search --full -name 包名
+10. 在环境里下载包: conda install --name 环境名 包名
+11. 在当前环境下载包: pip install 包名
+12. 卸载环境中的包: conda remove (--name 环境名) 包名

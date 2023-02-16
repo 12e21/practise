@@ -1,0 +1,7 @@
+特有方法:
+	1. bucket_count() :返回桶的数量
+	2. bucket(key)    :返回以 key 为键的键值对所在桶的编号
+	3. bucket_size(n) :返回第 n 个桶中存储键值对的数量
+	4. load_factor()  :返回负载因子
+	5. max_load_factor():返回或者设置当前 unordered_map 容器的负载因子
+	6. hash_function(): 返回当前容器使用的哈希函数对象 

@@ -1,0 +1,21 @@
+1. 官网下.run文件
+2. 禁用nouveau
+3. 进入命令行 sudo telinit 3
+4. 运行.run文件
+5. 关闭内核自动更新
+
+
+下载驱动未成功黑屏光标闪烁:
+1. ubuntu 高级选项
+2. recoverymode
+3. root
+4. sudo apt-get remove --purge nvidia*(删除旧显卡驱动)
+5. sudo reboot 
+
+
+进入命令行:
+sudo telinit 3
+开机时 Ctrl + Alt + F1
+
+进入图形:
+sudo telinit 5 + Fn 

@@ -1,0 +1,5 @@
+1. find(key):            返回首个查找键的键值对迭代器
+2. lower_bound(key):     返回首个查找键的键值对迭代器
+3. upper_bound(key):     返回最后一个查找键值对后一位迭代器
+4. equal_range(key):     返回一个装有{lower_bound(key),upper_bound(key)}的pair
+5. count(key):           返回查找键对应键值对的数量

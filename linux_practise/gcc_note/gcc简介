@@ -1,0 +1,8 @@
+1. GCC: GNU编译器套件(GNU Compiler Collection)
+2. 主要组件:
+	1. g++ 编译器(默认为c++,连接时自动包含标准C++库)
+	2. as GNU汇编器
+	3. ld 链接器
+	4. gdb GNU调试器
+	5. make 读makefile
+3. g++: gcc的一个版本,编译c++时用(不用指定标准C++库)

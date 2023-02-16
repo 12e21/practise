@@ -1,0 +1,7 @@
+1. empty(): 检测容器是否为空
+2. size() : 返回栈内元素多少
+3. top()  : 返回引用类型的栈顶元素
+4. push(val): 将元素压入栈
+5. pop()  :弹出栈顶元素
+6. emplace(val): 压栈
+7. swap(stack1,stack2): 交换两栈

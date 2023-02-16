@@ -1,0 +1,1 @@
+与vector相比增加了push_front(),emplace_front(),pop_front() 删除了capacity(),reserve()和data()

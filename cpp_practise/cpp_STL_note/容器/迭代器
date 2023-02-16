@@ -1,0 +1,17 @@
+1. 迭代器: 用于对容器遍历,读,写
+2. 种类: 
+	1. 输入迭代器: 迭代输入流
+	2. 输出迭代器: 迭代输出流
+	3. 前向迭代器: 支持++p,p++,*p,==,!=
+	4. 双向迭代器: 支持 前向所有功能和 --
+	5. 随机迭代器: 双向所有功能和 p+=i,p-=i,p+i,p-i,p[i],<,>,<=,>=,p1-p2
+3. 不同容器对应迭代器:
+	1. 随机迭代器: array,vector,deque
+	2. 双向迭代器: list,set/multiset,map/multimap
+	3. 前项迭代器: forward_list,unordered_map/unordered_multimap,unordered_set/unordered_multiset
+	4. 不支持迭代器: stack,queue
+4. 定义迭代器方式: 
+	1. 正向迭代器	   容器类名::iterator  迭代器名
+	2. 常量正向迭代器  容器类名::const_iterator  迭代器名
+	3. 反向迭代器	   容器类名::reverse_iterator  迭代器名
+	4. 常量反向迭代器  容器类名::const_reverse_iterator  迭代器名

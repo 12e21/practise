@@ -1,0 +1,24 @@
+class Box:
+
+    #公有属性
+    name ="box_01"
+    
+    #私有属性
+    __length=1
+    __width=2
+    __height=3
+
+    #构造函数
+    def __init__(self,lenth,width,height):
+        self.__length=lenth
+        self.__width=width
+        self.__height=height
+
+    私有方法
+    def __calculate_volumn(self):
+        return (self.__length*self.__width*self.__height)
+
+    公有方法
+    def get_volumn(self):
+        return self.__calculate_volumn()
+

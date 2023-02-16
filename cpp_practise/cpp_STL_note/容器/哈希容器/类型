@@ -1,0 +1,7 @@
+类型:
+1. unordered_map: 储存不重复的无序键值对
+2. unordered_multimap: 一个键可对应不同值
+3. unordered_set: 无序集合
+4. unordered_multiset: 可存重复元素
+特点:
+     无序 

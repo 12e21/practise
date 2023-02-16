@@ -1,0 +1,5 @@
+1. 头文件: <iterator>
+2. 创建:
+	1. back_insert_iterator<Container> name(container);
+	2. auto name = back_inserter(container);
+3. 使用: back_insert_iter = val

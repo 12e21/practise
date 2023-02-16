@@ -1,0 +1,4 @@
+1. 头文件: <queue>
+2. 创建:
+	1. 定义: priority_queue<Type> name
+	2. 初始化: (起始迭代器,末尾迭代器)

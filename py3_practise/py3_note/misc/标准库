@@ -1,0 +1,11 @@
+1. 操作系统接口: os
+2. 文件通配符: glob
+3. 命令行参数: sys
+4. 错误输出重定向和程序终止: sys
+5. 字符串正则匹配: re
+6. 数学: math
+7. 访问互联网: urllib , smtplib
+8. 日期和时间: datetime
+9. 数据压缩: zlib
+10. 性能度量: timeit
+11. 测试模块: doctest , unittest

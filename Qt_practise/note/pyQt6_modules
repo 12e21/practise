@@ -1,0 +1,10 @@
+1. QtCore : 非 GUI 的核心库、处理时间、文件、目录、线程和进程
+2. QtGui : 窗口系统集成、事件处理、2D图形，基本图像、字体、文本的类
+3. QtWidgets: 创建经典风格的用户界面的类
+4. QtDBus: 使用 D-Bus 处理 IPC 通讯的类
+5. QtNetwork: 网络变成类
+6. QtHelp: 创建、查看和搜索文档的类
+7. QtXml: 包含了处理 XML 文件的类，实现了 SAX 和 DOM API
+8. QtSvg: 提供了显示 SVG 的类
+9. QtSql: 提供了数据库的类
+10. QtTest: 可以对 PyQt6 应用进行单元测试的工具
