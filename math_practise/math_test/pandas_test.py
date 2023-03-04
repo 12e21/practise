@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 '''
 读入&存入excel
 df=pd.read_excel('data/体检数据.xlsx',index_col=0)
@@ -32,6 +33,8 @@ df=pd.DataFrame(
 print(df)
 print(df[df['B']>0])
 '''
+'''
+统计方法
 data = np.array([
     [1.39, 1.77, None],
     [0.34, 1.91, -0.05],
@@ -40,3 +43,26 @@ data = np.array([
 ])
 df = pd.DataFrame(data, index=["r0", "r1", "r2", "r3"], columns=["c0", "c1", "c2"])
 print(df.describe())
+'''
+
+'''
+n=500
+x=np.linspace(-10,10,n)
+y=np.random.normal(0,1,n)+x**2+np.abs(x)**(1/2)
+df =pd.DataFrame({
+    'x':x,
+    'y':y
+})
+'''
+
+'''
+散点图
+color = np.arctan2(df["y"], df["x"])
+df.plot.scatter(x="x", y="y", c=color, s=60, alpha=.5, cmap="rainbow")
+'''
+
+'''
+折线图
+df.plot(x='x',y='y')
+plt.show()
+'''
