@@ -5,10 +5,12 @@ import torch.nn.functional as F
 import torch
 import torchvision
 import torchvision.transforms as transforms
-from conv_nn import convNet
+from conv_nn_train import convNet
 
 
 if __name__ == "__main__":
+
+    device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # 加载数据集
     transform = transforms.Compose(
         [transforms.ToTensor(),
@@ -27,9 +29,12 @@ if __name__ == "__main__":
 
     correct = 0
     total = 0
+    # shutdown gradient back propogation,decrease inference time
     with torch.no_grad():
         for data in testloader:
             images, labels = data
+            images=images.to(device)
+            labels=labels.to(device)
             outputs = net(images)
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
