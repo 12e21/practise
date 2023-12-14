@@ -91,6 +91,6 @@ if __name__ == "__main__":
 
     end_time=time.time()
     print('Finished Training,use time:{0}'.format(end_time-start_time))
-    torch.save(net,"best.pt")
+    torch.save(net, "model/cnn.pt")
 
 

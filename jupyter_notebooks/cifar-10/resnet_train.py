@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import time
 
-save_path = "resnet_model.pt"
+save_path = "model/resnet_model.pt"
 # log_path = "logs"
 require_improvement = 1000
 batchSize = 256
@@ -101,7 +101,7 @@ def train(model, dataLoader, optimizer, lossFunc, n_epoch):
                 # time_dif = get_time_dif(start_time)
                 if testDataLoss < test_best_loss:
                     test_best_loss = testDataLoss
-                    torch.save(model.state_dict(), save_path)
+                    torch.save(model, save_path)
                     improve = '*'
                     last_improve = total_batch
                 else:
